@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+.letra {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+.letraBrand,
+p {
+    font-family: 'Poppins Light', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.fundo {
+    background-color: #000;
+    color: #fff;
+}
+
+.fundo ul {
+    list-style: none;
+    padding-left: 1.5rem;
+}
+
+.fundo .lista {
+    padding-left: 0;
+}
+
+.fundo a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+.fundo a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #0275d8;
+    transition: .1s ease-out;
+}
+
+.ad {
+    padding-left: 2rem;
+}
+
+.jumbotron {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+section {
+    padding-top: 4rem;
+}
+
+#news {
+    padding-top: 0;
+}
+
+.esp {
+    padding-right: .5rem;
+}
+
+.cor1 {
+    color: yellowgreen;
+}
+
+.cor2 {
+    color: black;
+}
+
+.cor3 {
+    color: crimson;
+}
+
+.cor4 {
+    color: blueviolet;
+}
+
+.tamanho {
+    font-size: 4rem;
+}
+
+
+/*=========================== SOCIAL MEDIA ICONS COLOR AND HOVER ============================== */
+
+.face i {
+    color: #2f55a4;
+}
+
+.insta i {
+    color: #e1306c;
+}
+
+.twitter i {
+    color: #00acee;
+}
+
+.youtube i {
+    color: #FF0000;
+}
+
+.linkedin i {
+    color: #2867b2;
+}
+
+.links i {
+    padding-right: 1.5rem;
+}
+
+.face a:hover {
+    color: #2f55a4;
+    transition: .1s ease-out;
+}
+
+.insta a:hover {
+    color: #e1306c;
+    transition: .1s ease-out;
+}
+
+.twitter a:hover {
+    color: #00acee;
+    transition: .1s ease-out;
+}
+
+.youtube a:hover {
+    color: #FF0000;
+    transition: .1s ease-out;
+}
+
+.linkedin a:hover {
+    color: #2867b2;
+    transition: .1s ease-out;
+}
